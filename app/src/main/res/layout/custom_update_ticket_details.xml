@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textVaiew3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:text="Update Your Ticket Details "
+        android:textColor="@color/teal_700"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/nameup"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/btn_background"
+        android:paddingLeft="10dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Ticket Owner's Name"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/dateup"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/btn_background"
+        android:paddingLeft="10dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Date"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/adultsup"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/btn_background"
+                android:paddingLeft="10dp"
+                android:ems="10"
+                android:inputType="number"
+                android:hint="Adults Tickets"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/childup"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/btn_background"
+                android:paddingLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:ems="10"
+                android:hint="Children Ticket"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/total"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/btn_background"
+        android:paddingLeft="10dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Total"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/calup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Calculate Tickets Total Price"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/red"
+        app:cornerRadius="20dp" />
+
+
+    <Button
+        android:id="@+id/updatebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Update Ticket"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/teal_700"
+        app:cornerRadius="20dp" />
+</LinearLayout>

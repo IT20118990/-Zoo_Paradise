@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ZooTicketingSystem/app/src/main/res/drawable/btn_background.xml" value="0.1755" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ZooTicketingSystem/app/src/main/res/layout/activity_add_ticket.xml" value="0.19384057971014493" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ZooTicketingSystem/app/src/main/res/layout/activity_main.xml" value="0.19384057971014493" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ZooTicketingSystem/app/src/main/res/layout/activity_ticket_manage.xml" value="0.19384057971014493" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ZooTicketingSystem/app/src/main/res/layout/custom_ticket_details.xml" value="0.19384057971014493" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ZooTicketingSystem/app/src/main/res/layout/custom_update_ticket_details.xml" value="0.19384057971014493" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

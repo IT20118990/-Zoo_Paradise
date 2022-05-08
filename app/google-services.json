@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "222194859082",
+    "project_id": "zoo-ticketing-system",
+    "storage_bucket": "zoo-ticketing-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222194859082:android:bd88ed3249abb3b2a4bab3",
+        "android_client_info": {
+          "package_name": "com.tech.zooticketingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222194859082-26gb9127bnthh9ebqaoef2nbaqnp5j3v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGYVj6UNFxmAEdG2cAZBZnV6YJeMP9XTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222194859082-26gb9127bnthh9ebqaoef2nbaqnp5j3v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
